@@ -25,6 +25,8 @@ public interface LibrosFacadeLocal {
     Libros find(Object id);
 
     List<Libros> findAll();
+    
+    List<Libros> findByEstaLibr();
 
     List<Libros> findRange(int[] range);
 
